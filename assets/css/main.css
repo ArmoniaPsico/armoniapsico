@@ -15,7 +15,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	display: flex;
-	margin: 0;
+	margin: 6;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -25,11 +25,6 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
-/* All flex containers stack vertically by default (natural document flow) */
-html, body, div {
-	flex-direction: column;
-}
 
 body {
 	line-height: 1;
@@ -95,7 +90,6 @@ input, select, textarea {
 		color: #52575c;
 		line-height: 1.75em;
 		font-size: 14pt;
-		overflow-x: hidden;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -285,7 +279,6 @@ input, select, textarea {
 
 	.row {
 		display: flex;
-		flex-direction: row;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
