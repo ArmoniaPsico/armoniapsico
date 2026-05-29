@@ -2117,8 +2117,9 @@ input, select, textarea {
 	}
 
 	.homepage #header-wrapper {
-		padding: 10em 0 6em 0;
-		background-size: 128px 128px, 100% 100%, auto;
+		padding: 1.5em 0 1.5em 0;
+		background-image: none;
+		background-color: #B9E3FF;
 	}
 
 	#promo-wrapper {
@@ -2333,6 +2334,58 @@ input, select, textarea {
 				border-color: rgba(255, 255, 255, 0);
 			}
 
+/* Hero - Responsive */
+
+	@media screen and (max-width: 820px) {
+		#hero a img {
+			width: 190px !important;
+			height: 190px !important;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		#hero a {
+			display: block;
+		}
+		#hero a img {
+			float: none !important;
+			display: block;
+			margin: 0 auto 20px auto !important;
+			width: 160px !important;
+			height: 160px !important;
+		}
+		#hero > br {
+			display: none;
+		}
+		#hero p {
+			text-align: left !important;
+			font-size: 16px !important;
+		}
+		#hero strong p {
+			font-size: 21px !important;
+			text-align: center !important;
+		}
+		#hero ul.actions {
+			text-align: center;
+		}
+		.image.centered img {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		#hero a img {
+			width: 140px !important;
+			height: 140px !important;
+		}
+		#hero p {
+			font-size: 15px !important;
+		}
+		#hero strong p {
+			font-size: 18px !important;
+		}
+	}
+
 /* Promo */
 
 	#promo {
@@ -2434,7 +2487,9 @@ input, select, textarea {
 			}
 
 			.homepage #header-wrapper {
-				padding: 8em 0 4em 0;
+				padding: 1.5em 0 1.5em 0;
+				background-image: none;
+				background-color: #B9E3FF;
 			}
 
 			#promo-wrapper {
@@ -2479,7 +2534,9 @@ input, select, textarea {
 			}
 
 			.homepage #header-wrapper {
-				padding: 5em 0 4em 0;
+				padding: 1.5em 0 1.5em 0;
+				background-image: none;
+				background-color: #B9E3FF;
 			}
 
 			#promo-wrapper {
@@ -2715,7 +2772,7 @@ input, select, textarea {
 			}
 
 			.homepage #header-wrapper {
-				padding: 3em 20px 3em 20px;
+				padding: 1.5em 20px 1.5em 20px;
 			}
 
 			#promo-wrapper {
