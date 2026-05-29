@@ -15,7 +15,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	display: flex;
-	margin: 6;
+	margin: 30;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -2104,20 +2104,13 @@ input, select, textarea {
 
 	#header-wrapper {
 		position: relative;
-		padding: 4em 0 2em 0;
-		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-color: #f08c89;
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+		padding: 0.75em 0 0.75em 0;
+		background-image: none;
+		background-color: #B9E3FF;
 	}
 
 	.homepage #header-wrapper {
-		padding: 1.5em 0 1.5em 0;
+		padding: 0.75em 0 0.75em 0;
 		background-image: none;
 		background-color: #B9E3FF;
 	}
@@ -2336,53 +2329,18 @@ input, select, textarea {
 
 /* Hero - Responsive */
 
-	@media screen and (max-width: 820px) {
-		#hero a img {
-			width: 190px !important;
-			height: 190px !important;
-		}
-	}
-
 	@media screen and (max-width: 736px) {
-		#hero a {
-			display: block;
-		}
 		#hero a img {
 			float: none !important;
 			display: block;
 			margin: 0 auto 20px auto !important;
-			width: 160px !important;
-			height: 160px !important;
+			max-width: 100%;
 		}
 		#hero > br {
 			display: none;
 		}
-		#hero p {
-			text-align: left !important;
-			font-size: 16px !important;
-		}
-		#hero strong p {
-			font-size: 21px !important;
-			text-align: center !important;
-		}
-		#hero ul.actions {
-			text-align: center;
-		}
 		.image.centered img {
 			width: 100%;
-		}
-	}
-
-	@media screen and (max-width: 480px) {
-		#hero a img {
-			width: 140px !important;
-			height: 140px !important;
-		}
-		#hero p {
-			font-size: 15px !important;
-		}
-		#hero strong p {
-			font-size: 18px !important;
 		}
 	}
 
@@ -2483,13 +2441,11 @@ input, select, textarea {
 			}
 
 			#header-wrapper {
-				padding: 2em 0 2em 0;
+				padding: 0.75em 0;
 			}
 
 			.homepage #header-wrapper {
-				padding: 1.5em 0 1.5em 0;
-				background-image: none;
-				background-color: #B9E3FF;
+				padding: 0.75em 0;
 			}
 
 			#promo-wrapper {
@@ -2530,13 +2486,11 @@ input, select, textarea {
 			}
 
 			#header-wrapper {
-				padding: 5em 0 1em 0;
+				padding: 0.75em 0;
 			}
 
 			.homepage #header-wrapper {
-				padding: 1.5em 0 1.5em 0;
-				background-image: none;
-				background-color: #B9E3FF;
+				padding: 0.75em 0;
 			}
 
 			#promo-wrapper {
@@ -2767,12 +2721,12 @@ input, select, textarea {
 			}
 
 			#header-wrapper {
-				padding: 3em 20px 20px 20px;
+				padding: 0.75em 20px;
 				text-align: center;
 			}
 
 			.homepage #header-wrapper {
-				padding: 1.5em 20px 1.5em 20px;
+				padding: 0.75em 20px;
 			}
 
 			#promo-wrapper {
