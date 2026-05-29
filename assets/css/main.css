@@ -15,7 +15,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	display: flex;
-	margin: 30;
+	margin: 6;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -1829,6 +1829,7 @@ input, select, textarea {
 		padding-top: 1em;
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.actions.major {
@@ -2132,6 +2133,9 @@ input, select, textarea {
 		padding: 6em 0 6em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 /* Header */
@@ -2327,9 +2331,28 @@ input, select, textarea {
 				border-color: rgba(255, 255, 255, 0);
 			}
 
+/* Hero - Profile Photo */
+
+	.profile-photo-monica {
+		float: right;
+		width: 230px;
+		height: 230px;
+		border-radius: 50%;
+		object-fit: cover;
+		margin: 0 0 20px 25px;
+		box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+	}
+
 /* Hero - Responsive */
 
 	@media screen and (max-width: 736px) {
+		.profile-photo-monica {
+			float: none;
+			display: block;
+			margin: 0 auto 20px auto;
+			width: 200px;
+			height: 200px;
+		}
 		#hero a img {
 			float: none !important;
 			display: block;
