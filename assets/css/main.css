@@ -3385,7 +3385,8 @@ input, select, textarea {
 	#nav > ul {
 		margin: 0 auto;
 		padding: 0;
-		display: flex;
+		display: flex !important;
+		flex-direction: row !important;
 		justify-content: center;
 		align-items: center;
 		gap: 5.5em;
@@ -3394,7 +3395,7 @@ input, select, textarea {
 	}
 
 	#nav > ul > li {
-		display: block;
+		display: inline-block !important;
 		margin: 0;
 	}
 
