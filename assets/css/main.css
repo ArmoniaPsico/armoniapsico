@@ -2237,8 +2237,7 @@ input, select, textarea {
 		list-style: none !important;
 	}
 
-.dropotron,
-		.dropotron.level-0,
+.dropotron.level-0,
 		.dropotron ul,
 		.dropotron li,
 		.dropotron.level-0 ul {
