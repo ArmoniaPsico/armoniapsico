@@ -2236,12 +2236,15 @@ input, select, textarea {
 
 		.dropotron a, .dropotron span {
 			display: block;
+			width: 100%;
 			padding: 0.65em 1em 0.65em 1em;
 			border-top: solid 1px #e8e8e8;
 			border-bottom: 0;
 		}
 
 		.dropotron li {
+			display: block;
+			width: 100%;
 			padding-left: 0;
 		}
 
