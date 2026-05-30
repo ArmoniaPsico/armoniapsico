@@ -2258,29 +2258,30 @@ input, select, textarea {
 			margin-top: 0;
 		}
 
-			.dropotron.level-0:before {
-				content: '';
-				position: absolute;
-				top: -1em;
-				width: 1em;
-				height: 1em;
-				border-bottom: solid 0.5em #fff;
-				border-left: solid 0.5em rgba(255, 255, 255, 0);
-				border-right: solid 0.5em rgba(255, 255, 255, 0);
-			}
+		.dropotron.level-0:before {
+			content: '';
+			position: absolute;
+			top: -1em;
+			width: 1em;
+			height: 1em;
+			border-bottom: solid 0.5em #fff;
+			border-left: solid 0.5em rgba(255, 255, 255, 0);
+			border-right: solid 0.5em rgba(255, 255, 255, 0);
+		}
 
-			.dropotron.level-0.center:before {
-				left: 50%;
-				margin-left: -0.5em;
-			}
+		.dropotron.level-0.center {
+			left: 50% !important;
+			transform: translateX(-50%) !important;
+		}
 
-			.dropotron.level-0.left:before {
-				left: 1em;
-			}
+		.dropotron.level-0.center:before {
+			left: 50%;
+			margin-left: -0.5em;
+		}
 
-			.dropotron.level-0.right:before {
-				right: 1em;
-			}
+		.dropotron.level-0.left:before {
+			left: 1em;
+		}
 
 /* Hero */
 
