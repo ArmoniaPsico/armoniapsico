@@ -2276,10 +2276,7 @@ input, select, textarea {
 			border-right: solid 0.5em rgba(255, 255, 255, 0);
 		}
 
-		.dropotron.level-0.center {
-			left: 50% !important;
-			transform: translateX(-50%) !important;
-		}
+
 
 		/* Asegurar que hijos estén en columna y ocupen ancho completo */
 		.dropotron.level-0 > li { display: block !important; width: 100% !important; }
