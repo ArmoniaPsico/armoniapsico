@@ -2277,6 +2277,25 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+	/* Forzar una sola columna en dropdown de Dropotron */
+	body .dropotron,
+	body .dropotron ul,
+	body .dropotron li,
+	body .dropotron li > a,
+	body .dropotron li > span {
+		display: block !important;
+		width: 100% !important;
+		float: none !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		white-space: normal !important;
+	}
+
+	body .dropotron li > a,
+	body .dropotron li > span {
+		padding: 0.65em 1em 0.65em 1em !important;
+	}
+
 			.dropotron li.active > a, .dropotron li.active > span {
 				color: #3E71CF;
 			}

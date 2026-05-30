@@ -33,6 +33,7 @@
 			offsetX: 0,
 			offsetY: 0,
 			globalOffsetY: 0,
+			detach: false,
 			noOpenerFade: true
 		});
 
