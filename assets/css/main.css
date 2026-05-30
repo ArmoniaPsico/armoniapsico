@@ -3368,3 +3368,46 @@ input, select, textarea {
 }
 		
 	}
+
+/* Desktop header: centrar navegación y espaciado (sobre-escribe resets anteriores) */
+@media screen and (min-width: 737px) {
+	#header-wrapper {
+		padding: 0.6em 0 !important;
+		text-align: center !important;
+		background-color: #B9E3FF;
+	}
+
+	#nav {
+		text-align: center;
+		background: transparent;
+	}
+
+	#nav > ul {
+		margin: 0 auto;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 5.5em;
+		list-style: none;
+		width: auto;
+	}
+
+	#nav > ul > li {
+		display: block;
+		margin: 0;
+	}
+
+	#nav > ul > li > a,
+	#nav > ul > li > span {
+		color: #3E71CF;
+		text-decoration: none;
+		padding: 0.35em 0.25em;
+		font-size: 1.05em;
+	}
+
+	#nav > ul > li > a:hover,
+	#nav > ul > li > span:hover {
+		color: #2b5aa8;
+	}
+}
