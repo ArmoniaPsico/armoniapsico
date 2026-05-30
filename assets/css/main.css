@@ -2223,7 +2223,7 @@ input, select, textarea {
 
 	.dropotron {
 		/* Hidden by default; Dropotron JS will show and position it */
-		display: none !important;
+		display: none;
 		position: absolute !important;
 		text-align: left !important;
 		line-height: 2em !important;
@@ -2239,7 +2239,6 @@ input, select, textarea {
 
 		.dropotron ul,
 		.dropotron li,
-		.dropotron.level-0,
 		.dropotron.level-0 ul {
 			display: block !important;
 			width: 100% !important;
