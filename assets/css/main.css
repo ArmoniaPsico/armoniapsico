@@ -1815,6 +1815,20 @@ input, select, textarea {
 			padding-left: 0.5em;
 		}
 
+	.formacion-list {
+		display: block;
+		list-style-position: inside;
+		margin: 0;
+		padding-left: 1.25em;
+	}
+
+	.formacion-list li {
+		display: list-item;
+		width: 100%;
+		margin-bottom: 0.4em;
+		text-align: left;
+	}
+
 	ol {
 		list-style: decimal;
 		padding-left: 1.25em;
@@ -2242,7 +2256,7 @@ input, select, textarea {
 		.dropotron li,
 		.dropotron.level-0 ul {
 			display: block !important;
-			width: 50% !important;
+			width: 100% !important;
 			float: none !important;
 			padding: 0 !important;
 			margin: 0 !important;
@@ -2255,7 +2269,7 @@ input, select, textarea {
 		.dropotron > li > a,
 		.dropotron > li > span {
 			display: block !important;
-			width: 50% !important;
+			width: 100% !important;
 			float: none !important;
 			margin: 0 !important;
 			padding: 0 !important;
@@ -2266,7 +2280,7 @@ input, select, textarea {
 		.dropotron li > a,
 		.dropotron li > span {
 			display: block !important;
-			width: 50% !important;
+			width: 100% !important;
 			white-space: normal !important;
 			padding: 0.65em 1em 0.65em 1em !important;
 			border-top: solid 1px #e8e8e8 !important;
@@ -3304,6 +3318,7 @@ input, select, textarea {
 	.formacion-photo {
 		width: 220px !important;
 	}
+
 	/* Párrafos inferiores: quitar max-width en móvil para que ocupen todo */
 	#hero p[style*="max-width"] {
 		max-width: 100% !important;
