@@ -2879,6 +2879,8 @@ input, select, textarea {
 
 			#hero {
 				padding: 2.5em 2em 0 2em;
+				width: 100% !important;
+				max-width: 100% !important;
 			}
 
 				#hero header {
@@ -2891,6 +2893,13 @@ input, select, textarea {
 
 				#hero p {
 					font-size: 1em;
+					width: 100% !important;
+					max-width: 100% !important;
+					min-width: 0 !important;
+					word-break: break-word !important;
+					overflow-wrap: break-word !important;
+					hyphens: auto !important;
+					text-align: left !important;
 				}
 
 		/* Nav */
