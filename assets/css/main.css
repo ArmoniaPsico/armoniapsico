@@ -2259,6 +2259,10 @@ input, select, textarea {
 		.dropotron.level-0 {
 			font-size: 0.9em;
 			margin-top: 0;
+			/* Forzar vertical */
+			display: flex !important;
+			flex-direction: column !important;
+			align-items: stretch !important;
 		}
 
 		.dropotron.level-0:before {
@@ -2276,6 +2280,10 @@ input, select, textarea {
 			left: 50% !important;
 			transform: translateX(-50%) !important;
 		}
+
+		/* Asegurar que hijos estén en columna y ocupen ancho completo */
+		.dropotron.level-0 > li { display: block !important; width: 100% !important; }
+		.dropotron.level-0 > li > a, .dropotron.level-0 > li > span { display: block !important; width: 100% !important; }
 
 		.dropotron.level-0.center:before {
 			left: 50%;
