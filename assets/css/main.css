@@ -1525,7 +1525,7 @@ input, select, textarea {
 
 				.row.gtr-uniform > * > :last-child {
 					margin-bottom: 0;
-				}
+				} 
 
 				.row.aln-left {
 					justify-content: flex-start;
@@ -2424,7 +2424,27 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		z-index: 1;
+		display: block !important;
+		width: 100%;
+		text-align: center;
 	}
+
+		#footer p {
+			display: block !important;
+			width: 100%;
+			text-align: center;
+		}
+
+		#footer span {
+			display: inline-flex !important;
+			align-items: center;
+			gap: 0.5em;
+			margin: 0 1.5em;
+		}
+
+		#footer a {
+			border-bottom: none !important;
+		}
 
 		#footer header.major {
 			margin-bottom: 3em;
