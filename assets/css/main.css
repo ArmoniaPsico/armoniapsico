@@ -2186,6 +2186,7 @@ input, select, textarea {
 			#nav > ul > li {
 				display: inline-block;
 				margin-left: 1em;
+				position: relative;
 			}
 
 				#nav > ul > li > ul {
@@ -2311,6 +2312,19 @@ input, select, textarea {
 		.dropotron.level-0.left:before {
 			left: 1em;
 		}
+
+	/* Mostrar/ocultar submenu en hover de Servicios */
+	#nav > ul > li > ul.dropotron {
+		display: none !important;
+		position: absolute !important;
+		top: 100% !important;
+		left: 0 !important;
+		z-index: 1000 !important;
+	}
+
+	#nav > ul > li:hover > ul.dropotron {
+		display: block !important;
+	}
 
 /* Hero */
 
