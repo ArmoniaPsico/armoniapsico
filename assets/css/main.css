@@ -3315,8 +3315,17 @@ input, select, textarea {
 		flex-direction: column;
 		align-items: center;
 	}
+	.formacion-layout > div {
+		width: 100%;
+		max-width: 100%;
+	}
 	.formacion-photo {
 		width: 220px !important;
+	}
+	.formacion-photo img {
+		width: 100% !important;
+		height: auto !important;
+		max-width: 100% !important;
 	}
 
 	/* Párrafos inferiores: quitar max-width en móvil para que ocupen todo */
