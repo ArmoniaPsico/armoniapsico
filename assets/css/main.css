@@ -2237,6 +2237,8 @@ input, select, textarea {
 		list-style: none !important;
 	}
 
+.dropotron,
+		.dropotron.level-0,
 		.dropotron ul,
 		.dropotron li,
 		.dropotron.level-0 ul {
@@ -2246,6 +2248,18 @@ input, select, textarea {
 			padding: 0 !important;
 			margin: 0 !important;
 			white-space: normal !important;
+			flex-direction: column !important;
+		}
+
+		.dropotron > li,
+		.dropotron.level-0 > li,
+		.dropotron > li > a,
+		.dropotron > li > span {
+			display: block !important;
+			width: 100% !important;
+			float: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
 		}
 
 		.dropotron a,
