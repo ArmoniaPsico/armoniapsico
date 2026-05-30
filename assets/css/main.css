@@ -2435,15 +2435,14 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		#footer span {
-			display: inline-flex !important;
-			align-items: center;
-			gap: 0.5em;
-			margin: 0 1.5em;
+		#footer i {
+			display: inline !important;
+			vertical-align: middle;
 		}
 
 		#footer a {
-			border-bottom: none !important;
+			display: inline !important;
+			vertical-align: middle;
 		}
 
 		#footer header.major {
