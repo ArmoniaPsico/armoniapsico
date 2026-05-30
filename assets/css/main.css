@@ -30,6 +30,18 @@ body {
 	line-height: 1;
 }
 
+p,
+ul,
+ol,
+dl,
+table {
+	display: block !important;
+}
+
+li {
+	display: list-item !important;
+}
+
 ol, ul {
 	list-style: left;
 }
@@ -91,6 +103,16 @@ input, select, textarea {
 		line-height: 1.75em;
 		font-size: 14pt;
 		overflow-x: hidden;
+	}
+
+	p,
+	ul,
+	ol {
+		display: block;
+	}
+
+	li {
+		display: list-item;
 	}
 
 	/* Layout vertical: todos los bloques apilados de arriba a abajo */
