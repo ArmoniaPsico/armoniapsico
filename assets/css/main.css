@@ -2228,7 +2228,7 @@ input, select, textarea {
 		text-align: left !important;
 		line-height: 2em !important;
 		border-radius: 0.35em !important;
-		min-width: 5em !important;
+		min-width: 2em !important;
 		background: #fff !important;
 		line-height: 1em !important;
 		padding: 0.85em 0 0.85em 0 !important;
