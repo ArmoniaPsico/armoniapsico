@@ -2259,10 +2259,7 @@ input, select, textarea {
 		.dropotron.level-0 {
 			font-size: 0.9em;
 			margin-top: 0;
-			/* Forzar vertical */
-			display: flex !important;
-			flex-direction: column !important;
-			align-items: stretch !important;
+			/* No forzar display: dejar que Dropotron controle show/hide y posición */
 		}
 
 		.dropotron.level-0:before {
