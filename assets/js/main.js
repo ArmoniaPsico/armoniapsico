@@ -29,7 +29,10 @@
 		$('#nav > ul').dropotron({
 			mode: 'fade',
 			speed: 300,
-			alignment: 'center',
+			alignment: 'left',
+			offsetX: 0,
+			offsetY: 0,
+			globalOffsetY: 0,
 			noOpenerFade: true
 		});
 
